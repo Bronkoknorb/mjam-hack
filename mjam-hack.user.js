@@ -5,10 +5,9 @@
 // @include     http://www.mjam.net/*
 // @include     http://mjam.net/*
 // @version     1
-// @grant       none
+// @grant       GM_addStyle
+// @require http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js
 // ==/UserScript==
-
-var $ = unsafeWindow.jQuery;
 
 // we install a timer task to repeatedly unhide unavailable options from the menu
 var timer = setInterval(myTimer, 1000);
