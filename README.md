@@ -6,7 +6,7 @@ This is especially useful if you want to collect a group order (Gruppenbestellun
 
 Menus that would normally be hidden, are displayed in an italic font instead:
 
-![Mittagsmenü visible](mjam_mittagsmenu.png)
+![Mittagsmenü visible](https://raw.githubusercontent.com/Bronkoknorb/mjam-hack/master/mjam_mittagsmenue.png)
 
 ## Installation
 
