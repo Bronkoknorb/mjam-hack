@@ -4,7 +4,9 @@
 // @description Make the Mittagsmenü on mjam.net visible
 // @include     http://www.mjam.net/*
 // @include     http://mjam.net/*
-// @version     2
+// @include     https://www.mjam.net/*
+// @include     https://mjam.net/*
+// @version     3
 // @grant       GM_addStyle
 // @require http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js
 // ==/UserScript==
