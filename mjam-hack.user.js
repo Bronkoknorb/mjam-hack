@@ -6,7 +6,7 @@
 // @include     http://mjam.net/*
 // @include     https://www.mjam.net/*
 // @include     https://mjam.net/*
-// @version     3
+// @version     4
 // @grant       GM_addStyle
 // @require http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js
 // ==/UserScript==
@@ -15,6 +15,6 @@
 var timer = setInterval(myTimer, 1000);
 function myTimer() {
     // unhide and display italic instead
-    $("#menu_category_list .categories__chooser li.unavailable").css('display', 'block').css('font-style', 'italic');
+    $("#menu_category_list li.unavailable").css('display', 'block').css('font-style', 'italic');
     $("#menu_list .section.unavailable").removeClass('unavailable').css('font-style', 'italic');
 }
