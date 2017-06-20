@@ -14,6 +14,7 @@
 
 // we install a timer task to repeatedly unhide unavailable options from the menu
 var timer = setInterval(myTimer, 1000);
+
 function myTimer() {
     // unhide and display italic instead
     $("#menu_category_list li.unavailable").css('display', 'block').css('font-style', 'italic');
