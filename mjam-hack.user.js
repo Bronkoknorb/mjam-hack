@@ -6,7 +6,7 @@
 // @include     http://mjam.net/*
 // @include     https://www.mjam.net/*
 // @include     https://mjam.net/*
-// @version     4
+// @version     5
 // @grant       GM_addStyle
 // @require http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js
 // @downloadURL https://github.com/Bronkoknorb/mjam-hack/raw/master/mjam-hack.user.js
